@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POORNAYU: An Investment Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; }
+    header, footer { background: #002244; color: white; padding: 20px 40px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { background: #004080; color: white; text-align: center; padding: 80px 40px; }
+    .section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    .services div, .faqs div, .testimonials blockquote, .why-us ul li { margin-bottom: 20px; }
+    .contact-info p { margin: 6px 0; }
+    footer { font-size: 14px; }
+    img.logo { height: 80px; display: block; margin: 0 auto 10px auto; }
+    iframe { width: 100%; height: 300px; border: none; margin-top: 20px; }
+    .team img { height: 100px; border-radius: 50%; }
+    .cta { background: #0066cc; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    h2 { color: #003366; }
+    .testimonials blockquote {
+  border-left: 5px solid #004080;
+  background: #f0f8ff;
+  padding: 15px 20px;
+  font-style: italic;
+  position: relative;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.testimonials blockquote::before {
+  content: "❝";
+  font-size: 28px;
+  color: #004080;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+.testimonials blockquote::after {
+  content: "❞";
+  font-size: 28px;
+  color: #004080;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+.faqs .faq {
+  margin-bottom: 20px;
+}
+
+.faq p {
+  margin: 5px 0;
+}
+.team-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.member img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid a:hover img {
+  transform: scale(1.05);
+}
+
+
+
+  </style>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<body>
+  <header>
+    <img src="logo.jpg"  class="logo"/>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#team">Team</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#blog">Blog</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p>Grow and Protect Your Wealth with Strategic Investments</p>
+    <p>Personalized financial advice tailored to your goals.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At POORNAYU, we are committed to empowering individuals and families to secure their financial future. With over a decade of experience, we understand the evolving financial landscape and tailor solutions that meet your unique needs.</p>
+    <p>We believe in building lasting relationships through transparency, education, and strategic financial planning. Whether you're just starting your investment journey or looking to diversify your portfolio, POORNAYU stands by your side as a trusted guide.</p>
+  </section>
+  
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div><strong>Post Office Investment</strong></div>
+      <div><strong>Mediclaim</strong></div>
+      <div><strong>Insurance</strong> – Life, Health, and Vehicle</div>
+      <div><strong>Real Estate Investment</strong></div>
+      <div><strong>Alternative Investments</strong></div>
+<div><strong>Newspaper Advertisement Services</strong> – Design and publish ads in leading newspapers.</div>
+</div>
+  </section>
+
+  <section class="section" id="philosophy">
+    <h2>Our Investment Philosophy</h2>
+    <ul>
+      <li><strong>Strategic Planning:</strong> We start with your financial goals and craft actionable plans to achieve them.</li>
+      <li><strong>Diversification:</strong> Your portfolio includes a balanced mix of asset classes to mitigate risk.</li>
+      <li><strong>Client Education:</strong> We educate you about every investment to ensure transparency and confidence.</li>
+      <li><strong>Long-Term Vision:</strong> Our focus is on sustained growth, not short-term gains.</li>
+    </ul>
+  </section>
+  
+
+  <section class="section team" id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="member">
+        <img src="bkb1.jpeg" alt="Bhagesh Bilala">
+        <h4>Bhagesh Kumar Bilala</h4>
+        <p>Founder & Financial Advisor</p>
+      </div>
+      <div class="member">
+        <img src="dj.jpeg" alt="Devesh Jain">
+        <h4>Devesh Jain</h4>
+        <p>All Technical Work</p>
+      </div>
+    </div>
+  </section>
+  
+    
+  
+
+  <section class="section" id="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials">
+      <blockquote>"POORNAYU gave me peace of mind with a diversified investment plan that actually works!" – R. Sharma</blockquote>
+      <blockquote>"Thanks to their mediclaim advice, my family was protected when we needed it most." – M. Verma</blockquote>
+      <blockquote>"I was new to investing, but Bhagesh explained everything clearly. Now I feel confident about my financial future." – Neha Ahuja</blockquote>
+      <blockquote>"Real estate options offered by POORNAYU helped me grow my assets without risk." – A. Yadav</blockquote>
+      <blockquote>"Their insurance recommendations were exactly what I needed. No hidden clauses, very transparent!" – Priyanka Singh</blockquote>
+      <blockquote>"With their help, I secured the best post office scheme for my retirement." – K. Meena</blockquote>
+      <blockquote>"I always thought investing was complicated, but POORNAYU made it simple and effective." – Rajat Verma</blockquote>
+      <blockquote>"Professional team, prompt service, and reliable financial advice. Highly recommended!" – Sunita Bansal</blockquote>
+    </div>
+  </section>
+  
+  <section class="section" id="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faqs">
+      <div class="faq">
+        <p><strong>Q:</strong> Do you offer customized investment plans?</p>
+        <p><strong>A:</strong> Yes, every client's portfolio is tailored to their goals.</p>
+      </div>
+      <div class="faq">
+        <p><strong>Q:</strong> Is there a consultation fee?</p>
+        <p><strong>A:</strong> Your first consultation is absolutely free!</p>
+      </div>
+      <div class="faq">
+        <p><strong>Q:</strong> Do you provide vehicle insurance too?</p>
+        <p><strong>A:</strong> Yes, we cover life, health, and motor insurance.</p>
+      </div>
+      <div class="faq">
+        <p><strong>Q:</strong> Can I invest in real estate through POORNAYU?</p>
+        <p><strong>A:</strong> Yes, we offer verified real estate investment opportunities.</p>
+      </div>
+      <div class="faq">
+        <p><strong>Q:</strong> How safe are Post Office investments?</p>
+        <p><strong>A:</strong> Post Office schemes are government-backed and offer high safety.</p>
+      </div>
+      <div class="faq">
+        <p><strong>Q:</strong> What is the process to begin investing?</p>
+        <p><strong>A:</strong> Book a consultation with us and we’ll walk you through step by step.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section class="section" id="blog">
+    <h2>Latest Insights</h2>
+    <div>
+      <h4>Top 5 Post Office Schemes in 2025</h4>
+      <p>Learn which schemes provide high returns with safety for your money.</p>
+      <h4>Why Real Estate Is Still a Good Investment</h4>
+      <p>Explore current opportunities and trends in Jaipur and beyond.</p>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <h2>Why Choose POORNAYU?</h2>
+    <ul>
+      <li><strong>Client-Centered:</strong> Your goals are our priority. We tailor strategies to fit your life.</li>
+      <li><strong>Wide Range of Services:</strong> From government schemes to real estate, we cover it all.</li>
+      <li><strong>Transparency:</strong> No hidden fees, no complex jargon — just honest financial guidance.</li>
+      <li><strong>Expertise:</strong> Our experienced team ensures your money works harder for you.</li>
+      <li><strong>Local & Trusted:</strong> Based in Jaipur, we understand regional opportunities better than anyone else.</li>
+    </ul>
+  </section>
+  <section class="section gallery" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <a href="gallery1.png.png" target="_blank"><img src="gallery1.png.png" alt="Gallery Image 1"></a>
+      <a href="gallery2.png.png" target="_blank"><img src="gallery2.png.png" alt="Gallery Image 2"></a>
+      <a href="gallery3.png.png" target="_blank"><img src="gallery3.png.png" alt="Gallery Image 3"></a>
+      <a href="gallery4.png.png" target="_blank"><img src="gallery4.png.png" alt="Gallery Image 4"></a>
+    </div>
+  </section>
+  
+  
+
+  <section class="cta">
+    <h2>Ready to Build Your Future?</h2>
+    <p><a href="#contact" style="color:white; text-decoration:underline;">Schedule a Free Consultation Today!</a></p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Address:</strong> Plot No. 2, The Royal Avenue, Tonk Rd, Sanganer, Jaipur, Rajasthan 302029</p>
+      <p><strong>Phone:</strong> <a href="tel:08005561306">080055 61306</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/919414042187">9414042187</a></p>
+      <p><strong>Email:</strong> <a href="mailto:bhageshbilala13@gmail.com">bhageshbilala13@gmail.com</a></p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.138724835935!2d75.7894154754382!3d26.897931660371195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6d89d451f91%3A0x9b9168eb0f3e2c3e!2sThe%20Royal%20Avenue%2C%20Tonk%20Rd%2C%20Sanganer%2C%20Jaipur%2C%20Rajasthan%20302029!5e0!3m2!1sen!2sin!4v1683029603081!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 POORNAYU: An Investment Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
